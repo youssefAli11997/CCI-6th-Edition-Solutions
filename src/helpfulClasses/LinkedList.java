@@ -1,5 +1,9 @@
 package helpfulClasses;
 
+/*
+ * Doubly Linked List with head and tail as sentinel nodes
+ */
+
 public class LinkedList<T> {
 	
 	private LinkedListNode<T> head = new LinkedListNode<T>(null);
